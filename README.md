@@ -139,6 +139,40 @@ streamlit run app.py
 * Cloud deployment via Streamlit Community Cloud or Heroku
 
 ---
+## 🎯 Project Motivation  
+With the growing number of cyber attacks, intrusion detection has become a critical part of modern network security.  
+This project aims to create an efficient and lightweight **Intrusion Detection System** using Machine Learning to help classify malicious network activities accurately.
+
+---
+## 📂 Dataset Description  
+The **NSL-KDD dataset** is an improved version of the original KDD’99 dataset used for intrusion detection.  
+It contains labeled network connection records categorized as:  
+- **Normal**  
+- **DoS (Denial of Service)**  
+- **Probe**  
+- **R2L (Remote to Local)**  
+- **U2R (User to Root)**  
+Each record includes 41 features representing network attributes such as protocol type, service, flag, bytes transferred, etc.
+
+---
+## 🧰 Troubleshooting  
+- Ensure all `.pkl` files are in the same directory as the Python scripts.  
+- If Streamlit throws a “file not found” error, re-run `train_model.py` to regenerate the model.  
+- For Tkinter GUI issues, verify that Python’s `tkinter` module is properly installed.
+
+The model performed consistently well across multiple classes and showed balanced precision and recall, making it suitable for IDS use cases.
+
+---
+## ⚙️ Command Reference  
+
+| Action | Command |
+|--------|----------|
+| Train model | `python train_model.py` |
+| Run GUI | `python idu_gui.py` |
+| Run Streamlit app | `streamlit run app.py` |
+| Install dependencies | `pip install -r requirements.txt` |
+
+---
 
 ## 👩‍💻 Author
 
