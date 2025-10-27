@@ -1,7 +1,7 @@
 
-**🛡️ Intrusion Detection System (IDS) using NSL-KDD Dataset**
+# **🛡️ Intrusion Detection System (IDS) using NSL-KDD Dataset**
 
- **📘 Overview**
+## **📘 Overview**
 
 This project implements a Machine Learning–based Intrusion Detection System (IDS) using the NSL-KDD dataset. The system detects and classifies network connections as normal or attack.
 It combines data preprocessing, Random Forest classification, and two user interfaces — a Tkinter-based GUI and a Streamlit web app.
@@ -82,19 +82,29 @@ python idu_gui.py
 ```bash
 streamlit run app.py
 ```
-**🖼️ Input & Output Examples**
+## **🖼️ Input & Output Examples**
+
 🧩 GUI Interface (Tkinter)
-INPUT:
+
+**INPUT:**
+
 <img width="1920" height="1008" alt="Screenshot 2025-10-27 163509" src="https://github.com/user-attachments/assets/7182a0b5-a926-4ad1-b924-91798d893c73" />
 
-OUTPUT:
+**OUTPUT:**
+
 <img width="1920" height="1008" alt="Screenshot 2025-10-27 163525" src="https://github.com/user-attachments/assets/dcab9d96-d769-4c3e-b610-6151797910d4" />
 
-**🌐 Web Interface (Streamlit)**
-INPUT:
+
+
+
+## **🌐 Web Interface (Streamlit)**
+
+**INPUT:**
+
 <img width="930" height="481" alt="image" src="https://github.com/user-attachments/assets/94bd316a-50d2-4cda-a7ba-1a66841d6b70" />
 
-OUTPUT:
+**OUTPUT:**
+
 <img width="930" height="480" alt="image" src="https://github.com/user-attachments/assets/f2d20740-ddde-4e1b-b141-bf73643b9b26" />
 
 
@@ -133,6 +143,8 @@ OUTPUT:
 ## 👩‍💻 Author
 
 **Ashika V**
+
+
 Bachelor of Engineering in Artificial Intelligence & Machine Learning
 
 
