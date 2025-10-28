@@ -84,7 +84,7 @@ streamlit run app.py
 ```
 ## **🖼️ Input & Output Examples**
 
-🧩 GUI Interface (Tkinter)
+## **🧩 GUI Interface (Tkinter)**
 
 **INPUT:**
 
