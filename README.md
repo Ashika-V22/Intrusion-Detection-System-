@@ -1,6 +1,11 @@
 
 # **🛡️ Intrusion Detection System (IDS) using NSL-KDD Dataset**
 
+## 🚀 Live Demo
+
+Try out the Intrusion Detection System here 👇  
+🔗 **[Live Streamlit App: https://ashika--intrusion-detection-system.streamlit.app/**
+
 ## **📘 Overview**
 
 This project implements a Machine Learning–based Intrusion Detection System (IDS) using the NSL-KDD dataset. The system detects and classifies network connections as normal or attack.
